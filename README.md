@@ -55,7 +55,7 @@ were created to carry out the Orchestration. The tasks dependencies are seen bel
 
 `download_data >> unzip_data >> fetch_data >> load_data`
 
-![Airflow DAG](./coreSentimentDAG.png)
+![Airflow DAG](./coreSentimentDAG.PNG)
 
 `download_data` and `unzip_data` for Extraction, `fetch_data` for Transformation and `load_data` for Loading.
 
@@ -71,7 +71,7 @@ See the query and result below...
 			LIMIT 1;
 	
 	
-![Query result](./highestViews.png)	
+![Query result](./highestViews.PNG)	
 
 
 
